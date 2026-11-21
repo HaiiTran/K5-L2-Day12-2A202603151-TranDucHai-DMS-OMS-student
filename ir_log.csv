@@ -1,0 +1,5 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S06_ir,IR_sim,Vùng tối quanh ghế em bé rõ hơn khi đối chiếu S06_rgb,infant_seat,Nhận diện box theo hình dạng; không dựa vào màu vải.
+S07_ir,IR_sim,Ảnh xám làm mất màu vải nhưng vẫn giữ đường viền ghế trẻ em,child_seat,Có thể vẽ box theo hình dạng; không suy thuộc tính từ màu.
+D02,real_IR,Đốm sáng trên kính che vùng mắt,eye_left/eye_right; face13,Mắt không rõ thì unknown; từng điểm đánh occluded/outside theo mức xác định được.
+D06,real_IR,NIR làm rõ mặt và hai tay trong cabin tối; ảnh không có màu,person; hand; gaze_zone,"Box người/tay vẫn nhận ra; gaze_zone dựa hướng mắt và đầu, không dựa màu."
